@@ -1,0 +1,27 @@
+.todoitem {
+    margin: 5px 0;
+    max-width: 100%;
+    width: 400px;
+    max-height: 100%;
+    background-color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.todocheckbox {
+    border: none;
+    width: 20px;
+}
+.todo-delete {
+    color:red;
+    text-align: right;
+}
+.todo-edit-panel {
+    width: 100%;
+}
+.item-text {
+    overflow: hidden;
+    text-align: left;
+    width: calc(100% - 30px);
+    word-wrap: break-word;
+}
